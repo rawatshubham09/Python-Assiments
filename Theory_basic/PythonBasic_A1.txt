@@ -1,0 +1,55 @@
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+		* 
+		'hello'
+		-87.8
+		- 
+		/ 
+
+
+		6 
+
+Ans : numeric values (-87.8,6)
+	  character value ("hello")
+	  
+2. What is the difference between string and variable?
+Ans : string is a group of character in qotes where as variable have value in it and it will vary accourding its value.
+	  EX:- name = "Rohan"
+	  In this name is variable while Rohan is String
+
+3. Describe three different data types.
+Ans : Different Type of data types are:-
+		String,Nuberic,Dictnary,Set,Tuples
+
+4. What is an expression made up of? What do all expressions do?
+Ans : An expression is a combination of operators and operands that is interpreted to produce some other value.
+	  In any programming language, an expression is evaluated as per the precedence of its operators
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+Ans :  An Expression always evaluates to a value. And, A statement does something,
+	   like creating a variable or displaying a value, it only does whatever the statement says.
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+Ans : bacon = 22 (because it did not save + 1 value in bacon)
+
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+Ans: "spamspamspam"
+	 "spamspamspam"
+	 
+8. Why is eggs a valid variable name while 100 is invalid?
+Ans : vairable name never start with numeric value that is  why eggs is valid.
+
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+Ans : for integer : int()
+	  for Float values : float()
+	  for String values : str()
+	  
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+Ans : "I have eaten " + str(99) + "burritos."
+

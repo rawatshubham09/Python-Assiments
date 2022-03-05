@@ -1,0 +1,63 @@
+1. What exactly is []?
+Ans : [] it is Square Bracket but in Python it is known as "list"
+
+2. In a list of values stored in a variable called spam, how would you assign the value &#39;hello&#39; as the
+third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Let&#39;s pretend the spam includes the list [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;] for the next three queries.
+Ans : spam.insert("&#39;hello&#39;",2)
+
+3. What is the value of spam[int(int(&#39;3&#39; * 2) / 11)]?
+Ans: Show an error
+
+4. What is the value of spam[-1]?
+Ans : It will print Last value in spam - "&#39;d&#39;"
+
+5. What is the value of spam[:2]?
+Ans : It will print First Two value of spam - "&#39;d&#39;", "&#39;d&#39;"
+
+
+Let&#39;s pretend bacon has the list [3.14, &#39;cat,&#39; 11, &#39;cat,&#39; True] for the next three questions.
+
+6. What is the value of bacon.index(&#39;cat&#39;)?
+Ans index = 1
+
+7. How does bacon.append(99) change the look of the list value in bacon?
+Ans : [3.14, &#39;cat,&#39; 11, &#39;cat,&#39; True, 99]
+
+8. How does bacon.remove(&#39;cat&#39;) change the look of the list in bacon?
+Ans : [3.14, &#39;cat,&#39; 11, True, 99]
+
+9. What are the list concatenation and list replication operators?
+Ans : The meaning of the word concatenation tells everything about the functionality. ... In other words,
+	  the concatenation operator connects one string at the end of the other. Replication Operator. 
+	  The multiplication operator acts as a replication operator when we have one string and one integer as operands
+
+10. What is difference between the list methods append() and insert()?
+Ans : append() - this will add new values in the end of the list but insert() will take position and place
+	  at that positon.
+	  
+11. What are the two methods for removing items from a list?
+Ans : pop() and remove()
+
+12. Describe how list values and string values are identical.
+Ans :The similarity between Lists and Strings in Python is that both are sequences, hence both can iterate.
+
+13. What's the difference between tuples and lists?
+Ans : The key difference between the tuples and lists is that while the tuples are immutable objects 
+	  the lists are mutable. This means that tuples cannot be changed while the lists can be modified.
+	  Tuples are more memory efficient than the lists
+	  
+14. How do you type a tuple value that only contains the integer 42?
+Ans : (42)
+
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+Ans : use list(tuple) for converting into List and tuple(list) for visa versa
+
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they
+contain?
+Ans : ex: name = ["Ravi","Vivek","kuldeep"]
+		so name is a object of list and that list contain name of my friends.
+
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+Ans : copy.copy() create a shallow copy of list (if we cange in copied list it give same change into orignal list).
+	  copy.deepcop() creat a different address so that both list work saperately.

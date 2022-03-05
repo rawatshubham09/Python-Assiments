@@ -1,0 +1,71 @@
+1. Why are functions advantageous to have in your programs?
+Ans : Function are group of program lines which is design to perform certain task ans it return output if needed.
+	  Function Reduce the size of coding because of repeated calling o same function will reduce few lines in coding.
+	  It make code little more Organised.
+	  
+2. When does the code in a function run: when it&#39;s specified or when it&#39;s called?
+Ans : pass
+
+3. What statement creates a function?
+Ans : def Function_name(Variables_name):
+			function_body
+			return Output value
+			
+4. What is the difference between a function and a function call?
+Ans : A function is a block of code which only runs when it is called.
+	  You can pass data, known as parameters, into a function. A function can return data as a result.
+	  eg : def to_called():
+				print("Some one Called me")
+		   
+		   to_called() #we call this fumction
+	  Output :- 
+			Some one Called me
+			
+5. How many global scopes are there in a Python program? How many local scopes?
+Ans : name = "Ravi"  #Globel variable
+	  def print_name():
+			name = "Vivek" #Local variable
+			print(f"My name is {name}) 
+	  print(f"My name is {name} 2.")
+	  
+	  Output :-
+			My name is Vivek
+			My name is Ravi 2.
+			
+6. What happens to variables in a local scope when the function call returns?
+Ans : For each new Function Called local variables will be restart to its orignal vale during initilisation.
+
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
+Ans : In Function we have Facility to Return any value inside function.
+	  Yes if we Write expression insde any function and return its output.
+	  ex :- def add(num1, num2):
+				return num1 + num2
+			add(5,6)
+	  Output : 
+			11 #Return the ans of expression
+			
+8. If a function does not have a return statement, what is the return value of a call to that function?
+Ans : It will execute the Function and return none.
+
+9. How do you make a function variable refer to the global variable?
+Ans : By adding Prefix "Globel" before Variable
+
+10. What is the data type of None?
+Ans : None is a class name NoneType
+
+11. What does the sentence import areallyourpetsnamederic do?
+Ans : Open Apendex C which is a python book.
+
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+Ans : Object of bacon.
+
+13. What can you do to save a programme from crashing if it encounters an error?
+Ans : use of try - except for executing values.
+
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+Ans : try will execute the command and if any error occur it will rase exceptions and we can handle them.
+		try : 
+			code body
+		except :
+			print("Error in code")
+			

@@ -1,0 +1,29 @@
+1. What does an empty dictionary's code look like?
+Ans : dict Name:
+		def init(self):
+			body
+		def Function1(self):
+			function body
+			
+2. What is the value of a dictionary value with the key 'foo' and the value 42?
+Ans : {"foo" : 42}
+
+3. What is the most significant distinction between a dictionary and a list?
+Ans : dictonary is key value pair while list is collection of data.
+	dictonary has key which need to given while list has position which is self append.
+	
+4. What happens if you try to access spam['foo'] if spam is {'bar': 100}?
+Ans : reurn none.
+
+5. If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and
+'cat' in spam.keys()?
+Ans: spam.keys() will return list of all keys present in spam.
+	 "cat" can be either key or value in spam dict.
+	 
+7. What is a shortcut for the following code?
+	if 'color' not in spam:
+		spam['color'] = 'black'
+Ans : spam['color'] = 'black' if 'color' not in spam
+
+8. How do you 'pretty print' dictionary values using which module and function?
+Ans : dict.items() will give list of tuples containing key values. [(key,value)]
