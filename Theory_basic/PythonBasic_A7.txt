@@ -1,0 +1,44 @@
+1. What are escape characters, and how do you use them?
+Ans : '\' backslash is a escape character and they are use if we are dealing with strings.
+		ex. 'This is my string\'s '  ---> This is my string's
+		
+2. What do the escape characters n and t stand for?
+Ans : \n --> Next line
+	  \t --> tab or 4 time spacebar space
+	  
+3. What is the way to include backslash characters in a string?
+Ans : by using doble backslash to include it in string. ("This is how a backslash implemented in string -> \\ ")
+
+4. The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the
+word Howl's not escaped a problem?
+Ans : We are using doble quote for framing string due to it single quote is treated like character here.
+
+5. How do you write a string of newlines if you don't want to use the n character?
+Ans : print("What you want at end", end = "character")
+
+6. What are the values of the given expressions?
+Ans : 
+'Hello, world!'[1] - 'e'
+'Hello, world!'[0:5] - 'Hell'
+'Hello, world!'[:5] - 'Hell'
+'Hello, world!'[3:] - 'lo, word!'
+
+7. What are the values of the following expressions?
+Ans :
+'Hello'.upper() - 			"HELLO"
+'Hello'.upper().isupper() - True
+'Hello'.upper().lower() - 	"hello"
+
+
+8. What are the values of the following expressions
+Ans : 
+'Remember, remember, the fifth of July.'.split() --> ["Remember,", "remember,", "the", "fifth", "of", "July."]
+'-'.join('There can only one.'.split()) -->  "-There can only one."
+
+
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+Ans : right-justifying -> str.rjust(string,size_of_space)
+	  left-justifying  -> str.ljust(string,size_of_space)
+	  centering  	   -> str.center(string,size_of_space)
+	  
+10. What is the best way to remove whitespace characters from the start or end?

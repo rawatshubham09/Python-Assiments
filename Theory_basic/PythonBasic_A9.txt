@@ -1,0 +1,39 @@
+1. To what does a relative path refer?
+Ans : path module is sub module of OS module in Python used for common path name 
+	  manipulation. os. path. relpath() method in Python is used to get a relative filepath
+	  to the given path either from the current working directory or from the given directory.
+	  
+2. What does an absolute path start with your operating system?
+Ans : An absolute path is a path that contains the entire path to the file or directory that you need to access.
+	  This path will begin at the home directory of your computer and will end with the file or directory that you wish to access.
+	  Absolute paths ensure that Python can find the exact file on your computer
+	  
+	  
+3. What do the functions os.getcwd() and os.chdir() do?
+Ans : os.getcwd() -> get current working directory path.
+	  os.chdir() ->  change current working directory to given path.
+	  
+4. What are the . and .. folders?
+Ans : if Current Working Directory is "C://alfa/gama/lembda" with the help of "../" we can jump to privous directory.
+		"C://alfa/gama".
+	  ./ represent all directory will search automaticallly.
+
+5. In C:\bacon\eggs\spam.txt, which part is the dir name, and which part is the base name?
+Ans: C:\bacon\eggs is Directory Name. 
+	 spam.txt is Base name.
+	 
+6. What are the three “mode” arguments that can be passed to the open() function?
+Ans: open(path_of_file,mode)
+	 modes:- rb (reading), wb(writting) etc.
+	 
+7. What happens if an existing file is opened in write mode?
+Ans: We can edit file and do modification with existing file.
+
+8. How do you tell the difference between read() and readlines()?
+Ans : The main difference is that read() will read the whole file at once and then print out the first characters that take up as 
+	  many bytes as you specify in the parenthesis versus the readline() that will read and print out only the
+	  first characters that take up as many bytes as you specify in the parenthesis
+	  
+9. What data structure does a shelf value resemble?
+Ans :	A shelf value resembles a dictionary value; it has keys and values, along with keys() and values() methods that work similarly to the
+		dictionary methods of the same names.

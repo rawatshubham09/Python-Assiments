@@ -1,0 +1,84 @@
+1. What is the name of the feature responsible for generating Regex objects?
+Ans : import re
+	  r"Regex Exp" #Regex expression
+	  
+2. Why do raw strings often appear in Regex objects?
+Ans : because they can be search using regexp expression.
+
+3. What is the return value of the search() method?
+Ans : "It will return every value of search expression. in list.(Complete word)"
+
+4. From a Match item, how do you get the actual strings that match the pattern?
+Ans : pattern = r'expression'
+	  re.find(pattern,string)
+	  
+5. In the regex which created from the r'(\d\d\d)-(\d\d\d-\d\d\d\d)', what does group zero cover?
+Group 2? Group 1?
+Ans : Group0 : (\d\d\d) -> find ecery 3 digit no. before -
+	  Group1 : (\d\d\d-\d\d\d\d) - > after - it will find every no. which is in pattern of 888-8888.
+
+6. In standard expression syntax, parentheses and intervals have distinct meanings. How can you tell
+a regex that you want it to fit real parentheses and periods?
+Ans : by using backslash '\' before parentheses. This is a escape character.
+
+7. The findall() method returns a string list or a list of string tuples. What causes it to return one of
+the two options?
+Ans : This will return every possible pattern possible in string in a list.
+
+8. In standard expressions, what does the | character mean?
+Ans : this mean "or" -> |
+
+9. In regular expressions, what does the character stand for?
+Ans : character are use to tell what is a role in regular expression.
+	  Ex : {2,4} - Match atleast 2 time but not more then 4.
+	  
+10.In regular expressions, what is the difference between the + and * characters?
+Ans : + mens search ans many possible
+	  * means zero or as much as possible of previous character.
+	  ex: ca*t -> cat, ct, caaaaaaaaaaat
+
+11. What is the difference between {4} and {4,5} in regular expression?
+Ans : {4} - atleast 4.
+	  {4,5} - atleast 4 but not more than 5
+	  
+12. What do you mean by the \d, \w, and \s shorthand character classes signify in regular
+expressions?
+Ans : \d -> Digit
+	  \w -> any character
+	  \s -> white space
+
+13. What do means by \D, \W, and \S shorthand character classes signify in regular expressions?
+Ans : \D -> Except Digit
+	  \W -> Except Character(Alphabet + symbols)
+	  \S -> Expept White Space
+	  
+14. What is the difference between .*? and .*?
+Ans : Both are same so no difference.
+
+15. What is the syntax for matching both numbers and lowercase letters with a character class?
+Ans : [\d\w] -> Match both digit and character.
+
+16. What is the procedure for making a normal expression in regax case insensitive?
+Ans : So that they only select those character which are required with out noise data.
+
+17. What does the . character normally match? What does it match if re.DOTALL is passed as 2nd
+argument in re.compile()?
+Ans : re.compile() -> help to form a regexp expression for further use in searching required patterns.
+	  re.DOTALL -> re1DOTALL, re$DOTALL, re DOTALL.
+	  
+
+18. If numReg = re.compile(r'\d+'), what will numRegex.sub('X', '11 drummers, 10 pipers, five rings, 4
+hen') return?
+Ans : pass
+
+
+19. What does passing re.VERBOSE as the 2nd argument to re.compile() allow to do?
+Ans : re.VERBOSE : This flag allows you to write regular expressions that look nicer and 
+	  are more readable by allowing you to visually separate logical sections of the pattern and add comments.
+	  
+20. How would you write a regex that match a number with comma for every three digits? It must
+match the given following:
+'42'
+'1,234'
+'6,368,745'
+Ans : r'\d{1,3}|[\d\d\d,]+'
